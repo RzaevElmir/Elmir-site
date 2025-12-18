@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects • Personal Portfolio</title>
+  <meta name="description" content="My projects and work samples.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Portfolio</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link active">Projects</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-header">
+      <h1>Projects</h1>
+      <p class="page-subtitle">A selection of my recent work and personal projects.</p>
+    </section>
+
+    <section class="projects-grid">
+      <article class="project-card" id="project-1">
+        <div class="project-image">
+          <img src="images/project1.png" alt="Project 1 screenshot">
+        </div>
+        <div class="project-info">
+          <h2>Project 1: [Your Project Title]</h2>
+          <p class="project-description">
+            Provide a detailed description of what this project does. What problem does it solve? 
+            Who is the intended user? What was your approach to building it?
+          </p>
+          <p class="project-outcome">
+            <strong>Outcome:</strong> Describe the final result, impact, or key learnings from this project.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span>
+            <span class="tech-tag">CSS3</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card" id="project-2">
+        <div class="project-image">
+          <img src="images/project2.png" alt="Project 2 screenshot">
+        </div>
+        <div class="project-info">
+          <h2>Project 2: Hour of Code [Your Title]</h2>
+          <p class="project-description">
+            Optional: Include your Hour of Code project or another personal project. 
+            Describe what you built, the technologies you used, and what you learned from the experience.
+          </p>
+          <p class="project-outcome">
+            <strong>Outcome:</strong> Key takeaways and how this project contributed to your learning.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Learning</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Additional projects can be added here -->
+    </section>
+
+    <section class="projects-cta">
+      <h2>Interested in more?</h2>
+      <p>Check out my GitHub profile for additional projects, contributions, and code samples.</p>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        View My GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/your-username/your-website-repo" target="_blank" rel="noopener noreferrer" class="footer-link">
+          View this site on GitHub
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

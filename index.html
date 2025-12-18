@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home • Personal Portfolio</title>
+  <meta name="description" content="Personal portfolio website showcasing projects and experience.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Portfolio</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="profile-image">
+          <img src="images/profile.jpg" alt="Profile photo">
+        </div>
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Elmir</span></h1>
+          <p class="subtitle">A passionate web developer creating beautiful, functional digital experiences. Specialized in HTML, CSS, and JavaScript.</p>
+          <div class="hero-buttons">
+            <a href="projects.html" class="btn btn-primary">View My Work</a>
+            <a href="about.html" class="btn btn-secondary">Learn About Me</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="label">GitHub</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.002 12.002 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+            </a>
+            <a href="https://www.codecademy.com/profiles/your-profile" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="label">Codecademy</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10S2 17.514 2 12 6.486 2 12 2zm3 7h-3V6h-2v3H7v2h3v3h2v-3h3v-2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2>Featured Project</h2>
+      <article class="featured-card">
+        <div class="featured-image">
+          <img src="images/project1.png" alt="Project 1 screenshot">
+        </div>
+        <div class="featured-content">
+          <h3>Project 1: [Your Project Title]</h3>
+          <p>A brief description of your main project. What problem does it solve? What technologies did you use? What did you learn?</p>
+          <div class="project-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a href="projects.html#project-1" class="link-arrow">View Project →</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/your-username/your-website-repo" target="_blank" rel="noopener noreferrer" class="footer-link">
+          View this site on GitHub
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

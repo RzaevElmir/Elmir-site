@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume • Personal Portfolio</title>
+  <meta name="description" content="My resume and professional experience.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Portfolio</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="resume.html" class="nav-link active">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-header">
+      <h1>Resume</h1>
+      <p class="page-subtitle">Professional experience, education, and skills.</p>
+    </section>
+
+    <section class="resume-grid">
+      <div class="resume-column">
+        <h2>Experience</h2>
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Position Title</h3>
+            <span class="resume-date">2025 — Present</span>
+          </div>
+          <p class="resume-company">Company or Organization Name</p>
+          <p class="resume-description">
+            Description of your responsibilities and accomplishments. 
+            Focus on concrete outcomes and skills you developed.
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Position Title</h3>
+            <span class="resume-date">2023 — 2025</span>
+          </div>
+          <p class="resume-company">Previous Company or Organization</p>
+          <p class="resume-description">
+            Description of your role and key contributions. 
+            Highlight technologies used and impact achieved.
+          </p>
+        </div>
+      </div>
+
+      <div class="resume-column">
+        <h2>Education</h2>
+        <div class="resume-item">
+          <div class="resume-header">
+            <h3>Program Name</h3>
+            <span class="resume-date">Year</span>
+          </div>
+          <p class="resume-company">School, University, or Online Platform</p>
+          <p class="resume-description">
+            Relevant coursework, certifications, or achievements from this program.
+          </p>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>DevTools</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <h3>Languages</h3>
+          <p>English (native), [Other language (proficiency)]</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-cta">
+      <h2>Download Resume</h2>
+      <p>Want a PDF version? You can download my full resume here.</p>
+      <a href="#" class="btn btn-primary">Download PDF</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>
+        <a href="https://github.com/your-username/your-website-repo" target="_blank" rel="noopener noreferrer" class="footer-link">
+          View this site on GitHub
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
